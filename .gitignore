@@ -65,10 +65,13 @@ skills-lock.json
 # artifacts like main_example.pdf/.aux.
 cv/main_*.*
 !cv/main_example.tex
+!cv/main_example_vi.tex
 cv/*.txt
 cover_letters/cover_*.*
 cover_letters/Cover_*.*
 !cover_letters/cover_example.tex
+!cover_letters/cover_example_vi.tex
+!cover_letters/cover_vi.cls
 
 # documents/ subfolder contents are personal — only README and folder structure are tracked
 documents/cv/**
@@ -119,3 +122,8 @@ company_research/*.json
 
 # Brainstorm mockups (superpowers visual companion) - never ship
 .superpowers/
+
+# Vietnamese edition: Sự AI branding images used by README.md (the *.png/*.jpg rules above exist for personal photos)
+!assets/suai/
+!assets/suai/*.png
+!assets/suai/*.jpg

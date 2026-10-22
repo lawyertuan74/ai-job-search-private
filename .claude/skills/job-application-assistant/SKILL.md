@@ -5,7 +5,7 @@ description: >
   and preparing for interviews. Triggers on keywords like: job posting, job application, CV,
   cover letter, resume, interview prep, job fit, career, application, apply, ứng tuyển, xin việc, thư xin việc, phỏng vấn, tin tuyển dụng
 allowed-tools: Read, Glob, Grep, WebFetch, WebSearch, Edit, Write, AskUserQuestion
-framework_version: 1.3.7
+framework_version: 1.3.6
 ---
 
 # Job Application Assistant

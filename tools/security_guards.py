@@ -205,6 +205,16 @@ ALLOWED_IGNORE_NEGATIONS = {
     "!cv/main_example.tex",
     "!cover_letters/cover_example.tex",
     "!documents/**/.gitkeep",
+    # Vietnamese edition: the Vietnamese example templates and the Sự AI
+    # branding images README.md shows. None of them can hold personal data -
+    # personalized copies use the main_<company>_<role> / cover_<company>_<role>
+    # names the rules above still ignore.
+    "!cv/main_example_vi.tex",
+    "!cover_letters/cover_example_vi.tex",
+    "!cover_letters/cover_vi.cls",
+    "!assets/suai/",
+    "!assets/suai/*.png",
+    "!assets/suai/*.jpg",
 }
 
 # Hook commands the template legitimately ships, as "<Event>:<command>" strings.
