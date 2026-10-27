@@ -33,7 +33,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
   undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
   lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
   04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **CV language:** match posting <!-- User's choice: English posting or English required -> CV + cover letter in English; Vietnamese posting -> Vietnamese. Keep both master CVs (main_example.tex, main_example_vi.tex) in sync. -->
 
 - **Status:** [YOUR_EMPLOYMENT_STATUS]
 - **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
