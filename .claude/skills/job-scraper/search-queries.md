@@ -46,54 +46,56 @@ Queries are grouped by priority. Write **each category in every language from yo
 
 **Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Điều hành doanh nghiệp (COO / Giám đốc vận hành)
 
-These match your strongest and most desired career direction.
+VietnamWorks CLI (`-l "hcm,binh duong,dong nai,long an,ba ria vung tau"`):
+- `-q "COO"`, `-q "Giám đốc vận hành"`, `-q "Chief Operating Officer"`, `-q "Giám đốc điều hành"`, `-q "Operations Director"`, `-q "Phó tổng giám đốc"`
 
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
-```
+LinkedIn CLI (`-l "Ho Chi Minh City, Vietnam"`):
+- `-q "Chief Operating Officer"`, `-q "COO"`, `-q "Operations Director"`, `-q "General Manager"`
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+TopCV (WebFetch): `giam-doc-van-hanh`, `coo`, `giam-doc-dieu-hanh`
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:linkedin.com/jobs "Chief Operating Officer" "Ho Chi Minh"
+site:topcv.vn/viec-lam "Giám đốc vận hành" Hồ Chí Minh
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Tài chính (CFO / Giám đốc tài chính)
 
-Adjacent roles you could pivot into.
+VietnamWorks CLI: `-q "CFO"`, `-q "Giám đốc tài chính"`, `-q "Chief Financial Officer"`, `-q "Finance Director"`, `-q "Kế toán trưởng"` (chỉ khi cấp quản lý cao)
 
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
+LinkedIn CLI: `-q "Chief Financial Officer"`, `-q "CFO"`, `-q "Finance Director"`
 
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+TopCV (WebFetch): `giam-doc-tai-chinh`, `cfo`
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:linkedin.com/jobs "Chief Financial Officer" "Ho Chi Minh"
+site:topcv.vn/viec-lam "Giám đốc tài chính" Hồ Chí Minh
+```
+
+### Priority 3: Pháp chế (Giám đốc Pháp chế / Legal Director)
+
+VietnamWorks CLI: `-q "Giám đốc pháp chế"`, `-q "Trưởng phòng pháp chế"`, `-q "Legal Director"`, `-q "Head of Legal"`, `-q "Legal Counsel"`, `-q "General Counsel"`
+
+LinkedIn CLI: `-q "Legal Director"`, `-q "Head of Legal"`, `-q "General Counsel"`
+
+TopCV (WebFetch): `giam-doc-phap-che`, `truong-phong-phap-che`, `legal-manager`
+
+```
+site:linkedin.com/jobs "Head of Legal" "Ho Chi Minh"
+site:topcv.vn/viec-lam "Pháp chế" Hồ Chí Minh
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Chấp nhận (TP.HCM và vùng lân cận; VietnamWorks vẫn dùng tên tỉnh trước sáp nhập 2025):
+- TP. Hồ Chí Minh (gồm Bình Dương và Bà Rịa - Vũng Tàu cũ, sáp nhập vào TP.HCM từ 07/2025)
+- Bình Dương, Bà Rịa - Vũng Tàu (tên cũ trên VietnamWorks)
+- Đồng Nai (gồm Bình Phước cũ)
+- Long An (nay thuộc Tây Ninh mới)
+- Tây Ninh (borderline - kiểm tra địa điểm làm việc cụ thể)
+- Ngoài khu vực trên: loại, trừ khi tin cho làm việc từ xa / hybrid đặt tại TP.HCM
 
 ## Language Filter
 

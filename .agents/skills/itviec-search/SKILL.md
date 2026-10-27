@@ -10,7 +10,7 @@ description: >
   viên, việc làm công nghệ thông tin, tuyển dụng developer, look up this
   ITviec posting.
 context: fork
-enabled: true  # set to false to keep this portal installed but have /scrape skip it (non-IT candidates)
+enabled: false  # set to false to keep this portal installed but have /scrape skip it (non-IT candidates)
 allowed-tools: Bash(bun run .agents/skills/itviec-search/cli/src/cli.ts *)
 ---
 
