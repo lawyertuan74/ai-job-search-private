@@ -87,6 +87,11 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - [SECTOR_1]: [EXAMPLE_COMPANIES]
 - [SECTOR_2]: [EXAMPLE_COMPANIES]
 
+### Salary Expectation
+- **Target:** 150 triệu VND **NET**/tháng, negotiable (có thương lượng). Vietnamese postings usually quote gross: convert before comparing, and flag the conversion as an estimate (depends on dependants and the current PIT schedule).
+- Do **not** auto-exclude a posting on salary: "Thương lượng"/"Negotiable" or no salary shown -> keep; a stated range whose ceiling is clearly below target -> keep but flag the gap in the fit assessment.
+- Never write the salary figure into a CV or cover letter unless the posting or form explicitly asks for it.
+
 ### Deal-breakers
 <!-- Hard constraints on job search. Language requirements are handled separately and
 automatically from your Languages table above - don't duplicate them here. -->
